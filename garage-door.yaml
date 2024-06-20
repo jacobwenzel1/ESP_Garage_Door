@@ -49,7 +49,7 @@ ota:
   safe_mode: true
   reboot_timeout: 10min
   num_attempts: 5
-  password: !secret web_server_password #"48950fa566ada855c71a4c4b245514ae"
+  password: !secret web_server_password 
 
 ################################################################################
 # WiFi
@@ -65,7 +65,7 @@ wifi:
     #Enable fallback hotspot (captive portal) in case wifi connection fails
   ap:
     ssid: ${device_wifi_name}
-    password: !secret web_server_password #"sfwM5ot6UCSx"
+    password: !secret web_server_password 
 
 captive_portal:
 
